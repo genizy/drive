@@ -21,3 +21,16 @@ resolveAssetPath('area', 'href');
 resolveAssetPath('object', 'data');
 resolveAssetPath('video', 'poster');
 resolveAssetPath('custom-element', 'data-src');
+
+window.fetch = function(url, options) {
+    if (!/^https?:\/\//i.test(url)) {
+      // For relative URLs, prepend the base URL
+      url = `${baseURL}${url}`;
+    } else {
+      // Optionally modify absolute URLs
+      url = `${baseURL}${url.replace(/^https?:\/\//, '')}`;
+    }
+  
+    return originalFetch(url, options);
+  };
+  
