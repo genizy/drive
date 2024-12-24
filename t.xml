@@ -1,16 +1,16 @@
 <Module>
 <ModulePrefs title="t"/>
 <Content type="html">
-<![CDATA[ 
-<!DOCTYPE html>
-
+<![CDATA[ <!DOCTYPE html>
+<html lang="en-us">
 <head>
-	<meta charset="utf-8" />
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Drive Mad</title>
 	<script type="text/javascript" src="Jump_Gamemonetize.js"></script>
 	<script src="/js/main.js"></script>
-	<link rel="stylesheet" href="webapp/fancade.css" />
-	<link rel="icon" href="webapp/cover.jpg" />
+	<link rel="stylesheet" href="webapp/fancade.css">
+	<link rel="icon" href="webapp/cover.jpg">
 </head>
 
 <body id="body">
@@ -26,7 +26,7 @@
 			<div class="edge">
 				<div class="box">
 					<div class="black">
-						<img src="webapp/cover.jpg" class="cover" alt="cover" />
+						<img src="webapp/cover.jpg" class="cover" alt="cover">
 						<p class="title">Drive Mad</p>
 						<p class="author">Martin Magni</p>
 					</div>
