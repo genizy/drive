@@ -1,0 +1,16 @@
+<Module>
+<ModulePrefs title="t"/>
+<Content type="html">
+<![CDATA[ 
+<!DOCTYPE html>
+<html>
+<body>
+    <img src="logo.jpg">
+    <img src="/logo.jpg">
+    <img src="./logo.jpg">
+    <img src="../logo.jpg">
+</body>
+</html>
+]]>
+</Content>
+</Module>
