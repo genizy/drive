@@ -1,4 +1,4 @@
-const baseURL = "https://cdn.jsdelivr.net/gh/genizy/drive@6e27d4776d11c449d5348df4ab52a69f73426a8b/";
+const baseURL = "https://cdn.jsdelivr.net/gh/genizy/drive@208c5848e1e928a8bd5fc9b96698dc0c08f76710/";
 function resolveAssetPath(tagName, attribute) {
     document.querySelectorAll(tagName).forEach(element => {
         const assetPath = element.getAttribute(attribute);
